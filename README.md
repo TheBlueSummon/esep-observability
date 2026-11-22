@@ -43,16 +43,3 @@ Unmodified supplied files are retained in `starter/` for comparison. The runnabl
 ## Dependency choices
 
 The SDK versions follow the assignment's 2.0.0 / 0.200.0 generation. Auto instrumentation supplies HTTP, Express, and MongoDB instrumentation. The final configuration uses `@opentelemetry/exporter-trace-otlp-http` instead of the legacy Jaeger exporter. `./tracing.js` uses an explicit relative preload path. A lockfile pins the installation. npm reports 34 dependency advisories in this assignment-era dependency set; review and update dependencies before any use beyond this local exercise.
-
-## Documentation reviewed
-
-- https://opentelemetry.io/docs/
-- https://opentelemetry.io/docs/concepts/components/
-- https://opentelemetry.io/docs/concepts/context-propagation/
-- https://opentelemetry.io/docs/concepts/signals/traces/
-- https://opentelemetry.io/docs/concepts/signals/metrics/
-- https://opentelemetry.io/docs/concepts/signals/logs/
-- https://opentelemetry.io/docs/concepts/sampling/
-- https://opentelemetry.io/docs/languages/js/getting-started/nodejs/
-- https://opentelemetry.io/docs/languages/js/exporters/
-- https://www.jaegertracing.io/docs/2.5/getting-started/
